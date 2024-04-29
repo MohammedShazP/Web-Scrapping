@@ -9,4 +9,9 @@ import scrapy
 class AgentsItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    Name = scrapy.Field()
+    Job_Title = scrapy.Field()
+    Image_url = scrapy.Field()
+    Address = scrapy.Field()
+    Contact_Number = scrapy.Field()
+    Social = scrapy.Field()
